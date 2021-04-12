@@ -1,0 +1,66 @@
+.cuarta_pagina{
+    
+    background: #f3efef;
+
+    header{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3{
+
+            margin: 3%;
+            font-size: 40px;
+
+
+        }
+        p{
+
+            width: 80%;
+            text-align: justify;
+
+          
+        }
+
+    }
+
+    main{
+        //background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+
+
+       
+
+        .Pila{
+         
+            width: 80%;
+        text-align: justify; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+            .desc{
+                
+                //width: 40%;
+                padding: 16px;
+                p
+                {
+                    margin: 12px 0;
+                }
+            }
+
+            .im{
+                width: 40%;
+                padding: 16px;
+            }
+
+
+        }
+    }
+
+}

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class= "contenedor_general">
+
+        <div class = "primer_pgina ocupa_pantalla">
+            <header>
+                <div class = "nombre_unidad">
+                    <p> Unidad 2. Normas y estándares de redes de datos
+                         </p>
+                </div>
+                <div class ="menu" >
+                    <a href="">Alumna: Pacheco Espinosa Lissete</a>
+
+                </div>
+            
+            </header>
+
+            <main>
+                <img src="assets/IMG/dinosaur-5995333_1920.png" alt="Error :,v">
+                <div class = "bienvenida">
+                    <h1> Redes de computadoras</h1>
+                    <p> Profesor: Guillermo Urzúa Sánchez </p>
+                </div>
+             
+            </main>
+
+        </div>
+
+        <div class = "segunda_pagina ocupa_pantalla">
+            <header>
+                <div class = "contenedor_titulo">
+                    <h2>Modelo de Comunicación OSI</h2>
+                    <hr>
+                </div>
+                <div class = "contenedor_informacion">
+                    <p>
+                        El modelo de interconexión de sistemas abiertos, también llamado OSI (en inglés open system interconnection) es el modelo de red descriptivo propuesto por la Organización Internacional para la Estandarización (ISO) en el año 1977 y aprobado en el año 1984.
+                        Es una normativa formada por siete capas que define las diferentes fases por las que deben pasar los datos para viajar de un dispositivo a otro sobre una red de comunicaciones.
+
+                    </p>
+                </div>
+            </header>
+            <main>
+                <div class = "contenedor_tarjeta">                        
+                    <h3>
+                        Nivel de aplicación
+                    </h3>
+                    <p>
+                        Capa de interacción humano-computadora, donde las aplicaciones pueden accesar a la red de servicios.
+                    </p>     
+                </div>
+                <div class = "contenedor_tarjeta">   
+                    <h3>
+                        Nivel de presentación
+                    </h3>
+                    <p>
+                        Se asegura que los datos estén en un formato usable además de donde ocurre la encriptación de los datos.
+                     </p>
+                </div>
+                <div class = "contenedor_tarjeta">    
+                    <h3>
+                        Nivel de sesión
+                    </h3>
+                    <p>
+                        Mantiene la conexión, también es el responsable de controlar puertos y sesiones.
+                    </p>           
+                </div>
+                <div class = "contenedor_tarjeta">                       
+                    <h3>
+                        Nivel de transporte
+                    </h3>
+                    <p>
+                        Transmite los datos usando los protocolos de transmisión, incluyendo TCP y UDP.
+                    </p>       
+                </div>
+                <div class = "contenedor_tarjeta">    
+                    <h3>
+                        Nivel de red
+                    </h3>
+                    <p>
+                        Direccionamiento lógico a través de la IP, enrutar paquetes.
+                    </p>
+                </div>
+                <div class = "contenedor_tarjeta">              
+                    <h3>
+                        Nivel de enlace de datos
+                    </h3>
+                    <p>
+                        Define el formato de los datos en la red.
+                        Direccionamiento físico através de la MAC address.
+                    </p>    
+                </div>
+                <div class = "contenedor_tarjeta">             
+                    <h3>
+                        Nivel físico
+                    </h3>
+                    <p>
+                        Señal y transmisión binaria.
+                    </p>
+                </div>     
+            </main>
+        </div>
+
+        <div class="tercer_pagina ocupa_pantalla">
+
+            <header>
+
+                <div class = "inf">
+
+                    <h3>
+                        Modelo de Comunicación TCP/IP.
+                    </h3>
+                    <p>
+                        Se creó a principios de la década de los setenta y se conoce con el nombre de modelo de Internet. Define cuatro categorías de funciones que deben ocurrir para que las comunicaciones se lleven a cabo correctamente
+                    </p>
+
+                </div>
+
+
+            </header>
+
+        <main>
+
+            <p>
+                El modelo TCP / IP es una versión concisa del modelo OSI. Contiene cuatro capas, a diferencia de las siete capas del modelo OSI. Las capas son:
+            </p>
+            <table class="contenido">
+
+                 <thead>
+                     <tr>
+                         <th>Equivalente de capa OSI</th>
+                         <th>Capa TCP/IP</th>
+                         <th>Función</th>
+                         <th>Ejemplos de protocolos TCP/IP</th>
+                     </tr>
+                 </thead>
+
+                 <tbody>
+                     <tr>
+                         <td>Aplicación, sesión, presentación.</td>
+                         <td>Aplicación.</td>
+                         <td>Representa datos para el usuario, más control de codificación y de dialogo.</td>
+                         <td>NFS, NIS, DNS, LDAP, ftp, RIP, RDISC, SNMP, otros.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Transporte.</td>
+                        <td>Transporte.</td>
+                        <td>Admite la comunicación entre distintos dispositivos a través de diversas redes.</td>
+                        <td>TCP, UDP, SCTP.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Red</td>
+                        <td>Internet</td>
+                        <td>Determina el mejor camino a través de la red</td>
+                        <td>IPv4, IPv6, ARP, ICMP</td>
+                    </tr>
+
+                    <tr>
+                        <td>Física</td>
+                        <td>Red física</td>
+                        <td>Controla los dispositivos del hardware y los medios que crean la red</td>
+                        <td>Ethernet, Token Ring, RS-232, FDDI, otros</td>
+
+                    </tr>
+
+
+                 </tbody>
+            </table>
+
+            <p>
+                La capa de aplicación TCP/IP incluye un número de protocolos que proporciona funcionalidad específica a una variedad de aplicaciones de usuario final. Las capas 5, 6 y 7 del modelo OSI se utilizan como referencias para proveedores y desarrolladores de software de aplicación para fabricar productos que funcionan en redes.
+            </p>
+            <p>
+                Tanto el modelo TCP/IP como el modelo OSI se utilizan comúnmente en la referencia a protocolos en varias capas. Dado que el modelo OSI separa la capa de enlace de datos de la capa física, se suele utilizan cuando se refiere a esas capas inferiores.
+            </p>
+
+           </main>
+
+        </div>
+
+        <div class="quinta_pagina ocupa_pantalla">
+
+            <header>
+
+                <h3>
+                    Estándares IEEE 802
+                </h3>
+
+                <p>
+                    Es un proyecto que empezó en febrero de 1980 (802) se desarrolló paralelamente con el modelo OSI pero es específicamente para el hardware. El proyecto 802 define aspectos relacionados al cableado físico y transmisión de datos correspondiente a las capas físicas y enlace de datos. Los estándares OSI y IEEE 802 fueron desarrollados simultáneamente y en cooperación debido a que comparten características e interactúan muy bien.
+                </p>
+            </header>
+            <main> 
+             <div class="col"> 
+                <div class = "contenido">
+                    
+                    <h4>
+                        Estándares IEEE 802 para Redes Alámbricas
+                    </h4>
+                   
+            
+                    <div class="inf">
+
+                        <table class="redA">
+                            <thead>
+                                <tr>
+                                    <th>Estándares IEEE 802 </th>
+                                    <th>Definición</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>802.1</td>
+                                    <td>Define la relación entre los estándares 802 del IEEE y el Modelo de Referencia para
+                                        Interconexión de Sistemas Abiertos (OSI) de la ISO 
+                                        </td>
+                                </tr>
+
+                                <tr>
+                                    <td>802.2</td>
+                                    <td>Define el protocolo de control de enlaces lógicos (LLC) del
+                                        IEEE, el cual asegura que los datos sean transmitidos de forma confiable por medio del
+                                        enlace de comunicación. 
+                                        </td>
+                                </tr>
+
+                            <tr>
+                                <td>802.3</td>
+                                <td>Define cómo opera el
+                                    método de Acceso Múltiple con Detección de Colisiones (CSMA/CD) sobre varios medios. 
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>802.4</td>
+                                <td>El estándar token bus define esquemas de red de anchos de banda
+                                    grandes, usados en la industria de manufactura. 
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>802.5</td>
+                                <td>Define los protocolos de acceso,
+                                    cableado e interface para la LAN token ring. 
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>802.6</td>
+                                <td>Define un protocolo de alta velocidad donde las
+                                    estaciones enlazadas comparten un bus dual de fibra óptica usando un método de acceso
+                                    llamado Bus Dual de Cola Distribuida (DQDB). 
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>802.7</td>
+                                <td>Este comité provee consejos técnicos a otros
+                                    subcomités en técnicas sobre anchos de banda de redes.
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>802.8</td>
+                                <td>Provee consejo a otros subcomités en redes por
+                                    fibra óptica como una alternativa a las redes basadas en cable de cobre. 
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>802.9</td>
+                                <td>Trabaja en la
+                                    integración de tráfico de voz, datos y vídeo para las LAN 802 y Redes Digitales de
+                                    Servicios Integrados (ISDN's).
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>802.10</td>
+                                <td>Trabaja en la definición
+                                    de un modelo de seguridad estándar que opera sobre una variedad de redes e incorpora
+                                    métodos de autenticación y encriptamiento. 
+                                    </td>
+                            </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>  
+                </div>
+                    
+                
+                <div class = "contenido">
+                    
+                    <h4>
+                        Estándares IEEE 802 para Redes Inalámbricas
+                    </h4>
+                   
+                    <div class="inf">
+
+                        <h4>
+                            802.11 Redes Inalámbricas. 
+                        </h4>
+                        <p>
+                            Este comité está definiendo estándares para redes inalámbricas. Está trabajando en la estandarización de medios como el radio de espectro de expansión, radio de banda angosta, infrarrojo, y transmisión sobre líneas de energía. Dos enfoques para redes inalámbricas se han planeado. En el enfoque distribuido, cada estación de trabajo controla su acceso a la red. En el enfoque de punto de coordinación, un hub central enlazado a una red alámbrica controla la transmisión de estaciones de trabajo inalámbricas.
+                        </p>
+
+                    </div>  
+
+                </div>
+
+               </div>
+
+               
+
+            </main>
+
+        </div>
+
+
+        <div class="cuarta_pagina ocupa_pantalla">
+            <header>
+
+                <h3>
+                    Pilas de protocolos y flujo de datos 
+                </h3>
+
+                <p>
+                    La pila de protocolos, (protocol stack en inglés) es una colección ordenada de protocolos organizados en capas que se ponen unas encima de otras y en donde cada  protocolo  implementa  una  abstracción  encuadrada  en  la  abstracción  que proporciona la capa sobre la que está encuadrada.
+
+                </p>
+
+                <p>  El  conjunto  de  protocolos  TCP/IP  permite  la  comunicación  entre  diferentes máquinas que ejecutan sistemas operativos completamente distintos.
+                </p>
+
+            </header>
+
+            <main>
+
+                <div class="Pila">
+
+                    <div class="desc">
+                    <h4>Pilas de protocolos</h4>
+                    <p>
+                    Los protocolos de red definen un
+                    formato y un conjunto de reglas
+                    comunes para intercambiar
+                    mensajes entre dispositivos.
+                    </p>
+                    <p>
+                        • HTTP: protocolo de aplicación que rige la forma en que interactúan un servidor web y un cliente web.
+                    
+                    </p>
+
+                    <p>
+                        • TCP: protocolo de transporte que administra las
+                        conversaciones individuales.
+                       
+                    </p>
+
+                    <p> • IP: encapsula los segmentos TCP en paquetes,
+                        asigna direcciones y entrega al host de destino.
+                        </p>
+                        <p>• Ethernet: permite la comunicación a través de
+                            un enlace de datos y la transmisión física de
+                            datos en los medios de red.</p>
+
+                        </div>
+
+                        <div class="im">
+                            <img src="assets/IMG/14.png" alt="No se encontró imagen">
+                        </div>
+
+                </div>
+
+                <div class="Pila">
+
+                    <div class="desc">
+                    <h4>Flujo de datos</h4>
+
+                    <p>
+                        Todos los datos fluyen a través del ordenador desde una entrada hacia una salida. Este flujo de datos se denomina también stream. Hay un flujo de entrada (input stream) que manda los datos desde el exterior (normalmente el teclado) del ordenador, y un flujo de salida (output stream) que dirige los datos hacia los dispositivos de salida (la pantalla o un archivo).
+
+                    </p>
+
+                    <p>
+                        El proceso para leer o escribir datos consta de tres pasos
+                    </p>
+                    <p>
+                        • Abrir el flujo de datos
+                    </p>
+                    <p>
+                        • Mientras exista más información (leer o escribir ) los datos
+                    </p>
+                    <p>
+                        • Cerrar el flujo de datos
+                    </p>
+                </div>
+                <div class="im">
+                    <img src="assets/IMG/flujo.png" alt="No se encontró imagen">
+                </div>
+
+
+                </div>
+                
+            </main>
+        </div>
+
+     
+        <div class="septima_pagina pie_pantalla">
+           
+            <div class="inferior">
+                <p>Copyright ©  All rights reserved</p>
+               
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

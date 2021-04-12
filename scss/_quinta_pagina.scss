@@ -1,0 +1,111 @@
+.quinta_pagina{
+
+    background-color: $color3;
+    align-items: center;
+    justify-content: center;
+    
+   
+    header{
+
+        h3{
+            text-align: center;
+            color: #52350a;
+        }
+
+        padding: 5%;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        p{
+            color: #ccc;
+        }
+
+    }
+
+    main{
+    
+
+        width: 100%;
+
+        .col{
+            
+            width: 100%;
+ 
+            display: flex;
+            margin: 0px 24px;
+        
+            .contenido{
+
+                width: 50%;
+                height: 100%;
+                align-items: center;
+                //justify-content: center;
+                display: flex;
+                flex-direction: column;  
+                text-align: center;
+                //margin-bottom: 10%;
+            
+               
+                .inf{
+                  
+                    text-align: justify;
+                    width:85%;
+                    color: #52350a;
+                    p{
+                    color: #ccc;
+                    }
+                }
+
+                .redA{
+
+                    border-collapse: collapse;
+                    margin: 25px auto;
+                    font-size: 0.9em;
+                    min-width: 400px;
+                    border: 1px solid #52350a;
+                    color: #ccc;
+
+                    
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);  
+    
+    
+                    align-items: center;
+                    //justify-content: space-around;
+                    //display: flex;
+                    //flex-direction: row;
+
+                    
+                    thead{
+                        tr{
+                            background-color: $color5;
+                            color: #ccc;
+                          
+                        }
+                        
+                    }
+        
+                    th{
+                        padding: 12px 15px;
+                    }
+        
+                    tbody{
+                        overflow: auto;
+                    }
+                    tbody tr{
+                        border: 1px solid #52350a;
+                    }
+        
+                    td{
+                        padding: 10px 15px;
+                    }
+                    
+         
+    
+                }
+            }
+
+
+        }
+
+    }
+}
